@@ -1,14 +1,121 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>HTML 5 Boilerplate</title>
-    <link rel="stylesheet" href="style.css">
-  </head>
-  <body>
-	<script src="index.js"></script>
-  you found it! 
-  </body>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>My GitHub Portfolio</title>
+  <style>
+    body {
+      margin: 0;
+      padding: 0;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      background: linear-gradient(135deg, #0f2027, #203a43, #2c5364);
+      color: #f0f0f0;
+      line-height: 1.6;
+    }
+    header {
+      background-color: rgba(0, 0, 0, 0.6);
+      padding: 3rem 2rem;
+      text-align: center;
+    }
+    header h1 {
+      font-size: 3rem;
+      margin-bottom: 0.5rem;
+      color: #00e6e6;
+      text-shadow: 0 0 10px #00e6e6;
+    }
+    header p {
+      font-size: 1.2rem;
+      color: #ccc;
+    }
+    .content {
+      max-width: 900px;
+      margin: auto;
+      padding: 2rem;
+    }
+    .section {
+      margin-bottom: 3rem;
+    }
+    h2 {
+      font-size: 2rem;
+      border-left: 5px solid #00e6e6;
+      padding-left: 1rem;
+      margin-bottom: 1rem;
+      color: #ffffff;
+    }
+    ul {
+      padding-left: 2rem;
+    }
+    li {
+      margin-bottom: 0.5rem;
+    }
+    a {
+      color: #00e6e6;
+      text-decoration: none;
+    }
+    a:hover {
+      text-decoration: underline;
+    }
+    footer {
+      text-align: center;
+      padding: 2rem;
+      background-color: rgba(0, 0, 0, 0.5);
+      color: #aaa;
+      font-size: 0.9rem;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>[Your GitHub Username]</h1>
+    <p>Creative Technologist • Builder • Problem Solver • Programmer for Fun</p>
+    <p><a href="https://github.com/yourusername" target="_blank">github.com/yourusername</a></p>
+  </header>
+  <div class="content">
+    <div class="section">
+      <h2>About Me</h2>
+      <p>I like building things, breaking things, and usually fixing them after. I use code to explore ideas, automate the tedious, and prototype solutions. I have been hacking in secret for the last ten years and don't know what I was hiding. I'm going to just put it out there.</p>
+    </div>
+
+    <div class="section">
+      <h2>What I Build</h2>
+      <ul>
+        <li>Interactive web applications using JavaScript, React, and Node.js</li>
+        <li>Automation scripts in Python and Bash</li>
+        <li>Tools for data visualization and analysis</li>
+        <li>APIs, microservices, and backend systems</li>
+        <li>Experimental UI/UX projects and interface concepts</li>
+      </ul>
+    </div>
+
+    <div class="section">
+      <h2>Sample Projects</h2>
+      <ul>
+        <li><a href="https://github.com/yourusername/project-1">Project 1 – A lightweight task runner in Node.js</a></li>
+        <li><a href="https://github.com/yourusername/project-2">Project 2 – Custom terminal-based note-taking tool</a></li>
+        <li><a href="https://github.com/yourusername/project-3">Project 3 – Web-based mind mapping app using canvas</a></li>
+      </ul>
+    </div>
+
+    <div class="section">
+      <h2>Tech Stack</h2>
+      <ul>
+        <li>JavaScript / TypeScript / Python / HTML / CSS / Bash</li>
+        <li>React / Node.js / Express / Flask</li>
+        <li>PostgreSQL / MongoDB / SQLite</li>
+        <li>Git / GitHub / VS Code / Obsidian</li>
+      </ul>
+    </div>
+
+    <div class="section">
+      <h2>Contact</h2>
+      <p>Want to collaborate, brainstorm, or just geek out? Reach me at <a href="mailto:your.email@example.com">your.email@example.com</a>.</p>
+    </div>
+  </div>
+  <footer>
+    <p>Built from scratch with code, coffee, and curiosity.</p>
+    <p>Last updated: [Insert Date]</p>
+  </footer>
+</body>
 </html>
